@@ -16,3 +16,23 @@ print('V intervalu od 2-5 je', (zamestnanci[2:6]))
 #vypiš každý třetí prvek listu zamestnanci počínaje hodnotou 'František' za string: 'Každý třetí člen je:'
 print('Každý třetí člen je', (zamestnanci[::3]))
 
+#BMI uživatele Martin, který měří 200 centimerů a váží 80 kilogramů:
+#ytvoř proměnné jmeno, vaha, vyska a zadej do nich hodnoty,
+jmeno = Martin
+vaha = 80
+vyska = 2
+#vytvoř proměnnou bmi a přiřaď k ní vzorec, pomocí proměnných vaha, vyska a aritmetického operátoru na druhou ,
+bmi = vyha / vyska**2
+#vytvoř proměnnou kategorie, do které uložíš název kategorie odpovídající hodnotě BMI,
+if bmi < 18.5:
+    kategorie = 'podvýživa'
+    elif bmi > 18.5 and < 25:
+    kategorie = 'zdravá váha'
+    elif bmi > 25 and < 30:
+    kategorie = 'mírná nadváha'
+    elif bmi > 30 and < 40:
+    kategorie = 'obezita'
+    else bmi > 40:
+    kategorie = 'těžká nadváha'
+#vypiš výsledek do věty, jak je uvedeno níže
+print(jmeno, ŮTVÉ bmi ja", bmi, "což spadá do kategorie", kategorie)
