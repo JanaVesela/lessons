@@ -1,3 +1,18 @@
+#Vytvoří list zamestnanci, který obsahuje hodnoty
+zamestnanci = [
+    'František', 'Bruno',
+    'Anna', 'Jakub',
+    'Klára', 'Anežka',
+    'Anežka', 'Anežka'
+]
+#Ulož poslední index ze zadaného listu zamestnanci do proměnné posledni_index
+posledni_index = len(zamestnanci)-1
+#Vypiš jméno na indexu 2 za string: 'Na indexu 2 je: 
+print('Na indexu 2 je', (zamestnanci[2]))
+#Vypiš jméno na posledním indexu za string: 'Na <posledni_index> indexu je:'
+print("Na posledním indexu je:", (zamestnanci[posledni_index]))
+#vypiš jména od indexu 2 do 5 za string: 'V intervalu od 2 do 5 je:'
+print('V intervalu od 2-5 je', (zamestnanci[2:6]))
+#vypiš každý třetí prvek listu zamestnanci počínaje hodnotou 'František' za string: 'Každý třetí člen je:'
+print('Každý třetí člen je', (zamestnanci[::3]))
 
-
-lesson 2
